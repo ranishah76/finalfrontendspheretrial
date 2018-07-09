@@ -1,0 +1,36 @@
+//
+// var object = new THREE.Object3D();
+// object.position.x = ( table[ i + 3 ] * 140 ) - 1330;
+// object.position.y = - ( table[ i + 4 ] * 180 ) + 990;
+// targets.table.push( object );
+}
+// sphere
+// var vector = new THREE.Vector3();
+// var spherical = new THREE.Spherical();
+// for ( var i = 0, l = objects.length; i < l; i ++ ) {
+// 	var phi = Math.acos( -1 + ( 2 * i ) / l );
+// 	var theta = Math.sqrt( l * Math.PI ) * phi;
+// 	var object = new THREE.Object3D();
+// 	spherical.set( 800, phi, theta );
+// 	object.position.setFromSpherical( spherical );
+// 	vector.copy( object.position ).multiplyScalar( 2 );
+// 	object.lookAt( vector );
+// 	targets.sphere.push( object );
+// }
+
+
+// helix
+// var vector = new THREE.Vector3();
+// var cylindrical = new THREE.Cylindrical();
+// for ( var i = 0, l = objects.length; i < l; i ++ ) {
+// 	var theta = i * 0.175 + Math.PI;
+// 	var y = - ( i * 8 ) + 450;
+// 	var object = new THREE.Object3D();
+// 	cylindrical.set( 900, theta, y );
+// 	object.position.setFromCylindrical( cylindrical );
+// 	vector.x = object.position.x * 2;
+// 	vector.y = object.position.y;
+// 	vector.z = object.position.z * 2;
+// 	object.lookAt( vector );
+// 	targets.helix.push( object );
+// }
